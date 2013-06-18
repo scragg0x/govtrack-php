@@ -9,6 +9,6 @@ http://www.govtrack.us/developers/api
 Example
 -------
 ```php
-$gt = new GovTrack();
+$gt = new GovTrack\Client();
 print_r($gt->get('role', array('current' => 'true')));
 ```
