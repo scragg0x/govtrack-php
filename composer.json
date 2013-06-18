@@ -1,0 +1,24 @@
+{
+    "name": "scragg0x/govtrack-php",
+    "type": "library",
+    "description": "govtrack.us API wrapper in php",
+    "keywords": ["govtrack"],
+    "homepage": "https://github.com/scragg0x/govtrack-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthew Scragg",
+            "email": "scragg@gmail.com",
+            "homepage": "http://fleckz.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "guzzle/guzzle": "3.0.5"
+    },
+    "autoload": {
+        "psr-0": {
+            "GovTrack": "src/"
+        }
+    }
+}
